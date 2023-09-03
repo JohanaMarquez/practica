@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    padding: 1% 0% 1% 1%;
+}
+ul {
+    margin: 0%;
+}
+header {
+    background-color: tomato;
+    width: 98%;
+    height: 100px;
+    border-radius: 7px;
+}
+nav {
+    background-color: rgb(243, 243, 90);
+    width: 170px;
+    display: flex;
+    margin: 2% 85% ;
+    border-radius: 7px;
+    text-align-last: left;
+}
+.navbar {
+    list-style-type: none;
+}
+.lista {
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+main {
+    background-color: rgb(94, 109, 243);
+    width: 75%;
+    height: 100%;
+    border-radius: 7px;
+
+}
+article {
+    background-color: rgb(70, 179, 70);
+    width: 97%;
+    height: 80%;
+    margin: 3% 1% 1% 1%;
+    border-radius: 7px;
+}
+.container1 {
+    flex: 1;
+    display: flex;
+    height: 85%;
+    gap: 10px;
+    flex-direction: column;
+    padding: 3% 1% 1% 1%;
+}
+.seccion {
+    background-color: rgb(125, 223, 125);
+    height: 29%;
+    border-radius: 7px;
+}
+
+aside {
+    background-color: cyan;
+    width: 22%;
+    height: 100%;
+    border-radius: 7px;
+}
+.container2 {
+    flex: 1;
+    display: flex;
+    height: 70%;
+    width: 100%;
+    gap: 10px;
+    flex-direction: column;
+    padding: 7% 3% 7% 6%;
+}
+.cuadradogrande {
+    flex: 1;
+}
+.seccion1 {
+    background-color:  rgb(125, 223, 125);
+    width: 85%;
+    height: 80%;
+    border-radius: 7px;
+    padding: 1%;
+}
+.piedepagina {
+    width: 97%;
+    margin: 1% ;
+}
+footer {
+    background-color: rgb(235, 116, 116);
+    border-radius: 7px;
+    width: 98%;
+}
+.container {
+    flex: 1;
+    display: flex;
+    height: 100%;
+    gap: 10px;
+}
+/* hay que ponerle el height al body 100 vh para que ocupe todo el 
+largo de la pagina
+para sacar el scroll en el body pongo display: flex y flex-direction: column;
+en el container pongo flex:1; para que use si hago scroll la mayor
+parte de la pantalla
+
+*/

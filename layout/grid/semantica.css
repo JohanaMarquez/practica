@@ -1,0 +1,84 @@
+body {
+    display: grid;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    grid-template-columns: repeat(12, 8.33%);
+    grid-template-rows: repeat(12, 8.33%);
+}
+header {
+    background-color: tomato;
+    grid-area: 1 / 1 / 3 / 13;
+}
+nav {
+    background-color: rgb(243, 243, 90);
+    grid-area: 2 / 9 / 3 / 12;
+    margin: 2% 3% 1% 80%;
+    border-radius: 7px;
+}
+.navbar {
+    list-style-type: none;
+}
+.lista {
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main {
+    background-color: rgb(94, 109, 243);
+    display: grid;
+    grid-area: 3 / 1 / 12 / 10;
+}
+.articulo {
+    background-color: rgb(70, 179, 70);
+    display: grid;
+    grid-area: 1 / 1 / 12 / 11;
+    margin: 3% 3% 1% 3%;
+    border-radius: 7px;
+}
+.piedepagina {
+    display: grid;
+    grid-area: 12 / 1 / 12 / 11;
+    margin: 1% 3% 1% 3%;
+    border-radius: 7px;
+}
+.seccion1 {
+    background-color: rgb(125, 223, 125);
+    margin: 1% 1%;
+    border-radius: 7px;
+}
+.seccion2 {
+    background-color: rgb(125, 223, 125);
+    margin: 1% 1%;
+    border-radius: 7px;
+}
+.seccion3 {
+    background-color: rgb(125, 223, 125);
+    margin: 1% 1%;
+    border-radius: 7px;
+}
+   
+aside {
+    background-color: cyan;
+    grid-area: 3 / 10 / 12 / 13; 
+}
+.cuadrado1 {
+    background-color:  rgb(125, 223, 125);
+    height: 100px;
+    margin: 4% 5%;
+    border-radius: 7px;
+}
+.cuadrado2 {
+    background-color:  rgb(125, 223, 125);
+    height: 250px;
+    margin: 5% 5%;
+    border-radius: 7px;
+}
+footer {
+    background-color: rgb(235, 116, 116);
+    grid-area: 12 / 1 / 13 / 13;
+}
+/* para hacer grid-area: 1 / 2 / 3 / 4; 1 para row-start- 2 para column-start- 3 para row-end 
+4 para column-end
+para repetir el mismo valor en cantidad de columnas o filas se poner:
+ grid-template-columns: repeat(5 ,20%);
+* usamos fr para divide en las columnas que queremos mediante fracciones

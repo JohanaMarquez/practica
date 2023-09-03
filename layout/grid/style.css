@@ -1,0 +1,38 @@
+.grilla {
+    display: grid;
+
+    height: 600px;
+    width: 600px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    background-color: gray;
+}
+.item {
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+}
+.item2 {
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+.item3 {
+    background-color: green;
+    grid-column-start: 5;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+.item4 {
+    background-color: violet;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 5;
+}
+/* para poner ej grid column end no toma todo el numerto ej: grid column end:5 va a ocupar hasta el lugar 4
+
+
+

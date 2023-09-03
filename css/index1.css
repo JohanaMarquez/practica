@@ -1,0 +1,77 @@
+/* para llamar a un id se pone antes # */
+
+/*
+h1 {
+    color: rgb(153, 148, 172);
+    font-size: x-large;
+}
+body {
+    background-color: rgb(5, 5, 4);
+}
+a[href^="https"] {
+    color: blueviolet;
+}
+.container span {
+    color: coral;
+}
+hover para que cambie el color cuando ponemos
+ el cursor es una pseudoclase
+.container span:hover {
+    color: hotpink;
+}
+span {
+    color: aqua;
+}
+*/
+.container {
+    background-color: rgb(184, 62, 102);
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(98, 33, 100);
+    border-left: 10px solid red;
+    margin-top: 40px;
+    padding: 20px;
+
+    width: 200px;
+    height: 200px;
+}
+.contained {
+    background-color: rgb(12, 39, 24);
+    width: 100px;
+    height: 100px;
+    transition: all linear .5s;
+    border-radius: 25px;
+}
+.contained:hover {
+    background-color: chartreuse;
+    margin: 25px;
+    border-radius: 50px;
+}
+p:hover {
+    text-decoration: underline red 5px;
+}
+h1:hover {
+    color: aquamarine;
+}
+/* para poner una imagen en background: se pone
+ background-image: (nombredelaimagen ej gato.png) */
+
+ /* sirve para que cubra un espacio
+.container {
+    background-size: cover;
+}
+text-transformed: para mayuscula y minuscula
+ margin:separacion que tiene la caja con el borde
+ padding: separa el elemento hijo del padre
+ o se puede poner todo junto
+    border: solid 5px rgb(98, 33, 100)
+Con este hacemos que la foto se vaya para abajo
+.container {
+    background-position: bottom;
+}
+Se puede poner todo el background junto
+background: brown no repeat bottom etc.
+*/
+
+
+

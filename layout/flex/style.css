@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+h1 {
+    color: aliceblue;
+}
+.container {
+    width: 500px;
+    height: 200px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.item {
+    width: 100px;
+    height: 100px;
+}
+.violeta {
+    flex: 2;
+    background-color: violet;
+}
+.rosa {
+    flex: 1;
+    background-color: pink;
+}
+.salmon {
+    flex: 1;
+    background-color: salmon;
+}
+/* flex por defecto se ordena en filas, para ordenar en columnas ponemos
+flex-direction: column 
+justify-content: para ordenar la fila. start, end,center, space-between
+se distribuye en todo el largo
+gap: para espacio entre item ej gap: 5 px
+flex: 1; nos dice que va a usar 1/3 de la pantalla, es 1/3 porque son
+3 elementos*/
